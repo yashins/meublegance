@@ -1,23 +1,119 @@
 <html>
-<head>
-<title> Testing application </title>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-<script>
-	function clearText(){
-	alert("WARNING YOU ARE RESETTING THE TEXT");
-		document.getElementById("container").innerHTML = "This text has been reset";
-	}
+        <!-- build:css({.tmp,app}) styles/main.css -->
+        
+        <link rel="stylesheet" href="styles/bootstrap.min.css"  />
+        <link rel="stylesheet" href="styles/main.css"  />
+        <link rel="stylesheet" href="styles/global_styles.css"  />
+       <link rel="stylesheet" href="styles/pageTransition.css"  />
 
-</script>
 
-</head>
-<body>
+       
 
-<div id="container" >This is a torch Application</div>
-<button onClick="clearText()">RESET! </button>
+        <!--<link rel="stylesheet" type="text/css" media="all" href="styles/bootstrap.css">-->
 
+
+        <link rel="stylesheet" href="styles/about.css">
+       <!-- <link href='http://fonts.googleapis.com/css?family=Oxygen:300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>-->
+
+        <!-- endbuild -->
+  </head>
+  <body ng-app="liveIslam2014">
+    <!--[if lt IE 7]>
+      <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+      <script src="bower_components/es5-shim/es5-shim.js"></script>
+      <script src="bower_components/json3/lib/json3.min.js"></script>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+   <div class="main-container" ng-controller ="ViewCtrl">
+      
+     
+
+          <div ng-include="'views/menutop.tpl.html'"></div>
+            
+             <!-- content display view -->
+
+
+           <div class="contents animation {{fromClass}}"
+                ng-view 
+                ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}">
+
+              </div>
+
+    </div>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src='//www.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+
+    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	 <!--<script src="bower_components/angular/ui-bootstrap-tpls-0.6.0.js"></script>-->
+   <script src="bower_components/bootstrap.min.js"></script>
+
+   <script src="scripts/app.js"></script>
+   <script src="scripts/config/State.js"></script>
+
+  <!--SERVICES -->
+  <script src="scripts/services/HomeService.js"></script>
+
+
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    
+    <script src="scripts/controllers/ViewCtrl.js"></script>
+    <script src="scripts/controllers/HomeCtrl.js"></script>
+    <script src="scripts/controllers/MenuCtrl.js"></script>
+    <script src="scripts/controllers/ActivitiesCtrl.js"></script>
+    <script src="scripts/controllers/SchedulesCtrl.js"></script>
+    <script src="scripts/controllers/SpeakersCtrl.js"></script>
+    <script src="scripts/controllers/TicketsCtrl.js"></script>
+    <script src="scripts/controllers/AboutCtrl.js"></script>
+    <script src="scripts/controllers/ContactUsCtrl.js"></script>
+    <script src="scripts/controllers/LoginCtrl.js"></script>
+    <script src="scripts/controllers/VolunteerCtrl.js"></script>
+
+
+    <!--directives -->
+	 <script src="directives/onblur_directive.js"></script>
+    <!-- endbuild -->
+
+        <!-- build:js scripts/modules.js -->
+        <script src="bower_components/angular-resource/angular-resource.js"></script>
+        <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+        <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+
+      <!--  <script src="http://code.angularjs.org/1.2.0rc1/angular-animate.min.js"></script>-->
+
+         <script src="directives/menu_directive.js"></script>
+        <!-- endbuild -->
+
+
+      <!-- GREENSOCK!-->
+  <script type="text/javascript" src="scripts/greensock/plugins/CSSPlugin.js"></script>
+  <script type="text/javascript" src="scripts/greensock/easing/EasePack.js"></script>
+  <script type="text/javascript" src="scripts/greensock/TweenLite.js"></script>
+  <script type="text/javascript" src="scripts/greensock/TweenMax.js"></script>
 
 </body>
-
-
 </html>

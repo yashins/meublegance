@@ -1,0 +1,409 @@
+#about-left{
+    float: left;
+    width: 35%;
+    height: 100%;
+
+
+}
+
+.about{
+
+
+
+
+}
+
+#about-topLeft{
+    position: relative;
+    float:left;
+    height:40%;
+    width: 100%;
+
+
+}
+#about-topLeft-imageContainer  {
+
+    position: relative;
+    float: right;
+
+
+    overflow: hidden;
+
+    width: 50%;
+    height:80%;
+    top:20%;
+
+
+
+}
+
+
+#topleftImage1 {
+    position: relative;
+
+
+}
+
+
+
+#about-middle{
+    height: 100%;
+    float: left;
+    width:30%;
+
+
+}
+
+#about-middleTop{
+    position: relative;
+    float: left;
+    height:40%;
+    width:100% ;
+}
+
+#about-middleTop_container {
+    overflow: hidden;
+    position: relative;
+    float: left;
+    height:80%;
+    width:100% ;
+    top:20%;
+    background-color: #1b180f;
+
+}
+
+
+#about-middleBottom_container{
+    position: relative;
+    overflow: hidden;
+    float: left;
+    height:80%;
+    width:100% ;
+    background-color: #1b180f;
+
+}
+
+#about-middletext {
+
+    color:#aaa;
+    width:85%;
+    margin: 0 auto;
+    top: 10%;
+    position: relative;
+    text-align:justify;
+    text-justify:inter-word;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+}
+#about-middletext-bottom  {
+    color:#aaa;
+    width:85%;
+    margin: 0 auto;
+    top: 5%;
+    position: relative;
+
+    text-align:justify;
+    text-justify:inter-word;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 14px;
+}
+
+
+#txtChester {
+
+    position: relative;
+    text-align: center;
+
+    color: #ffffff;
+    z-index: 100;
+
+    width:328px;
+    height:115px;
+    margin: 0 auto;
+    top:50%;
+    margin-top: -57px;
+
+}
+
+#about-right{
+    position: relative;
+    float: right;
+    width:35%;
+    height: 100%;
+
+
+}
+
+#about-topRight{
+    position: relative;
+    float:left;
+    height:40%;
+    width: 100%;
+
+
+
+}
+
+#about-topRight-imageContainer  {
+
+    position: relative;
+    float: left;
+
+
+    overflow: hidden;
+
+    width: 50%;
+    height:80%;
+    top:20%;
+
+
+}
+
+#about-bottomRight{
+    position: relative;
+    float:left;
+    height:40%;
+    width: 100%;
+
+
+
+}
+
+#about-bottomRight-imageContainer  {
+
+    position: relative;
+    float: left;
+
+
+    overflow: hidden;
+
+    width: 50%;
+    height:80%;
+
+
+}
+
+#about-bar-middle{
+    float:left;
+    height:20%;
+    width: 100%;
+
+    background-color: #1b180f;
+
+
+}
+
+
+
+#about-bottomLeft{
+    position: relative;
+    float:left;
+    height:40%;
+    width: 100%;
+
+}
+
+#about-bottomLeft-imageContainer  {
+
+    position: relative;
+    float: right;
+
+
+    overflow: hidden;
+
+    width: 50%;
+    height:80%;
+
+
+}
+.about-title{
+    color:#fff;
+    font-size: 35px;
+    margin-top:30px;
+    margin-left:10px;
+}
+
+
+.about-sect-image-holder{
+    display: table-cell;
+    width: 0px;
+    height: 100%;
+    overflow: hidden;
+    background-color: #444;
+    background-position:  center;
+}
+.about-put-bottom{
+    position: absolute;
+    bottom: 0;
+    width:100%;
+
+
+}
+
+#about-image-Container{
+
+    position: relative;
+    margin : 0 auto;
+    width: 40%;
+    height:30%;
+
+}
+
+#about-text-Container{
+    position: relative;
+    margin : 0 auto;
+
+    color:#aaa;
+    width: 80%;
+    height:50%;
+
+    font-family: 'Oxygen', sans-serif;
+    overflow: hidden;
+    text-align: justify;
+
+}
+
+.about img {
+
+    width:100%;
+    height: 100%;
+
+
+}
+
+#carousel_ul   {
+    position: relative;
+    width: 301%;
+    height:100% ;
+    -webkit-padding-start: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0 ;
+    -webkit-margin-end: 0 ;
+    white-space: nowrap;
+    margin-left: -100.2%;
+    /* float: right; */
+
+
+    /* transition-timing-function: linear   ;
+     position: relative;
+     border-style: solid;
+     margin-left:-100.2%; /* important (this should be negative number of list items width(including margin) */
+
+
+}
+
+
+#img1{
+
+    width:100%;
+    height:100%;
+
+
+}
+#carousel_ul2   {
+    position: relative;
+    white-space: nowrap;
+    padding: 0px;
+    width: 301%;
+    height: 100%;
+    margin: 0px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    top:-100%;
+
+
+}
+
+#carousel_ul3   {
+    position: relative;
+    white-space: nowrap;
+    padding: 0px;
+    width: 301%;
+    height: 100%;
+    margin: 0px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    top:-100%;
+    /*   margin-top:-91%;important (this should be negative number of list items width(including margin) */
+
+
+}
+
+.theList {
+
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    width:33%;
+    height:100%;
+}
+
+.theList img{
+    padding: 0px;
+    margin: 0;
+    border: 0;
+}
+#carousel_ul4   {
+    position: relative;
+    width: 301%;
+    height:100% ;
+    -webkit-padding-start: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0 ;
+    -webkit-margin-end: 0 ;
+    white-space: nowrap;
+    margin-left: -100.2%;
+}
+
+
+.myImage0{
+
+
+
+}
+
+.myImage1{
+
+
+
+}
+
+.myImage2{
+
+
+
+}
+
+
+
+
+
+/* ANIMATION FOR IMAGES*/
+
+
+.doanimate-enter,
+.doanimate-leave
+{
+    /* -webkit-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+     -moz-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+     -ms-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+     -o-transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+     transition: 300ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;      */
+}
+
+.doanimate-enter {
+    left: 100%;
+}
+.doanimate-enter.animate-enter-active {
+    left: 0;
+}
+
+.doanimate-leave {
+    left: 0;
+}
+
+

@@ -1,0 +1,306 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit for Multimedia team
+ * All rights reservered sor prodigal :p
+ */
+
+/*
+* importing the Google fonts
+*/
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600);*/
+
+/* ==========================================================================
+   CSS Reset
+   ========================================================================== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+
+    font-size: 0.9em;
+    line-height: 1.4;
+    font-family: 'Open Sans', arial, sans-serif;
+    -webkit-text-size-adjust: none;
+
+    text-rendering: optimizelegibility;
+    background:#f4f4f4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+A:link {text-decoration: none; color:#838383;}
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+A:hover {text-decoration: none; color: #b78822;}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #000;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+h1, h2, h3, h4, h5, h6{font-weight:normal;}
+
+a {
+    overflow: hidden;
+}
+*|*:-moz-any-link:focus {
+    outline-width: 0 !important;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles starts here
+   ========================================================================== */
+.main-container {
+    display: table;
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+
+
+}
+
+
+
+.page{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: table-cell;
+    vertical-align: top;
+
+}
+
+.contents{
+   position: absolute;
+   
+    width: 100%;
+    height: 100%;
+    width: 100%;
+    height:100%;
+    background: #fafafa;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.navbar-nav li{
+        border-right: 1px solid #555;
+   
+}
+
+/*
+.nav-fix-width{
+    width: 1024px;
+    background-color: #111;
+}
+.dropdown-menu{
+    background-color: #111;
+}
+.dropdown-menu li a{
+    background-color: #111;
+    color: #aaa;
+
+}
+.dropdown-menu li a:hover{
+    background-color: #222;
+    color: #fff;
+}
+.dropdown-menu li:hover{
+    background-color: #222;
+
+}
+.navbar-nav li{
+    width:106px;
+    height:70px;
+    text-align: center;
+    border-right: 1px solid #333;
+    display: inline;
+    float: left;
+   
+}
+.navbar-nav li a{
+
+    margin-top: auto;
+
+}
+
+.navbar-nav li:hover{
+    background-color: #222;
+    color: #fff;
+   
+}
+.navbar-nav ul li{
+    height: 30px;
+    width: 158px;
+    border-right: none;
+}
+
+.navbar-fixed-bottom{
+    background-color: #111;
+    border-top: 2px solid #000;
+}
+*/
+/*ove
+.navbar-nav li{
+    border-right: 1px solid #222;
+   
+}rwritting twitter's bootstrap */
+
+
+/* #Media Queries
+================================================== */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+    .main-container {
+        width:720px;
+        height:100%;
+        background: #f4f4f4;
+        
+    }
+    body{
+        background: #000;
+    }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+    .main-container {
+        width:480px;
+        height:100%;
+    }
+
+
+}
+
+/* Bigger than standard 960 (devices and browsers) */
+@media only screen and (min-width: 960px) {
+    .main-container {
+        width: 100%;
+        height:100%;
+    }
+}
+
+/* Retina display Images */
+@media(-webkit-min-device-pixel-ratio: 2) {
+
+}

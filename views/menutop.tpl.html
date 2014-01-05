@@ -1,0 +1,60 @@
+
+<div ng-controller="MenuCtrl">
+
+  
+   
+
+
+    	<div class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container nav-fix-width" >
+            <a href="#/" ng-click="currentID(0)" class="navbar-brand">LiveIslam 2014</a>
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Where</a> </li>
+                            <li><a href="#">When</a> </li>
+                            <li><a href="#">What</a> </li>
+                            <li><a href="#">Who</a> </li>
+                        </ul>
+                    </li>
+ 
+                    <li><a href="#/speakers" ng-click="currentID(1)">Speakers / Artists</a></li>
+                    <li><a href="#/activities" ng-click="currentID(2)">Activities</a></li>
+                    <li><a href="#/schedules" ng-click="currentID(3)">Schedule</a></li>
+                    <li><a href="#/tickets" ng-click="currentID(4)">Tickets</a></li>
+                    <li><a href="#/login" ng-click="currentID(5)">Login</a></li>
+                    <li><a href="#/volunteer" ng-click="currentID(6)">Volunteer</a></li>
+                    <li><a href="#/contact" ng-click="currentID(7)">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+<!--
+
+	 <ul ng-controller="MenuCtrl" >
+        <li class="menu-item" ng-class="{'menu-item--is-active': isActive('/{{ name }}')}" data-ng-repeat="name in names">
+            <a ng-href="#/{{ name }}" ng-click="changePage($index);">
+
+
+                {{name}}
+            </a>
+
+
+
+        </li>
+        </ul>
+-->
+
+			
+		
+
+</div>
